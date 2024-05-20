@@ -1,0 +1,1 @@
+# YzLauncher-windows-updater
