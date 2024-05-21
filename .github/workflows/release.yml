@@ -1,5 +1,5 @@
 name: release
-run-name: (🚀 发布新更新日志${{ github.event.inputs.version }})
+run-name: 🚀 发布新更新日志 (${{ github.event.inputs.version }})
 on:
   workflow_dispatch:
     inputs:
@@ -19,8 +19,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Echo changelog
+        run: echo ${{ github.event.inputs.changelog }}
+
       - name: Update updater.json
-        run: node .github/scripts/release.js ${{ github.event.inputs.version }} ${{ github.event.inputs.changelog }}
+        run: node .github/scripts/release.js '${{ github.event.inputs.version }}' '${{ github.event.inputs.changelog }}'
 
       - name: Commit changes
         run: |
