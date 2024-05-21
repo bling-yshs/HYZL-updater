@@ -19,9 +19,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Echo changelog
-        run: echo ${{ github.event.inputs.changelog }}
-
       - name: Update updater.json
         run: node .github/scripts/release.cjs "${{ github.event.inputs.version }}" "${{ github.event.inputs.changelog }}"
 
