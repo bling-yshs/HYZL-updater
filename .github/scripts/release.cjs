@@ -6,8 +6,9 @@ let obj = JSON.parse(buffer.toString());
 
 // 获取程序输入，两个参数，一个version，changelog，都是字符串
 let version = process.argv[2]
-let changelog = process.argv[3]
-
+const args = process.argv.slice(3);
+const changelog = args.join('\n');
+console.log(`version: ${version}, changelog: ${changelog}`);
 // 获取当前秒级时间戳
 let timestamp = Math.floor(new Date().getTime() / 1000);
 
