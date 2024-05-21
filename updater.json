@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.2.26",
+    "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/YzLauncher-windows/releases/download/v0.2.26/YzLauncher-windows.exe",
+    "timestamp": 1716294157,
+    "changelog": "- 🐞 fix: 继续修复更新脚本错误... cc12d9c @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.25",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/YzLauncher-windows/releases/download/v0.2.25/YzLauncher-windows.exe",
     "timestamp": 1716289194,
