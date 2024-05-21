@@ -19,7 +19,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update README.md
-        run: |
-          echo "${{ github.event.inputs.changelog }}" > README.md
-          git config --local user.email "
+      - name: Update updater.json
+        run: node .github/scripts/release.js ${{ github.event.inputs.version }} ${{ github.event.inputs.changelog }}
