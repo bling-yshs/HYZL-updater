@@ -14,7 +14,7 @@ let timestamp = Math.floor(new Date().getTime() / 1000);
 
 obj.unshift({
   version,
-  "url": `https://mirror.ghproxy.com/https://github.com/bling-yshs/YzLauncher-windows/releases/download/${version}/YzLauncher-windows.exe`,
+  "url": `https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/${version}/HYZL.exe`,
   timestamp,
   changelog,
   "deprecated": false
