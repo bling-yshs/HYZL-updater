@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.31",
+    "url": "https://example.com/path/to/file",
+    "md5": "84238dfc8092e5d9c0dac8ef93371a07",
+    "timestamp": 1716529469,
+    "changelog": "无",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.30",
     "url": "https://example.com/path/to/file",
     "md5": "84238dfc8092e5d9c0dac8ef93371a07",
