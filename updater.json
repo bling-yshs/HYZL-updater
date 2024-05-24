@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.30",
+    "url": "https://example.com/path/to/file",
+    "md5": "84238dfc8092e5d9c0dac8ef93371a07",
+    "timestamp": 1716529383,
+    "changelog": "- 🌟 feat: 修改项目名称 (#4) 4a7367c @bling-yshs\n- 🌟 feat: 启动器运行时，每个三小时检查一次更新 (#6) 916150b @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.28",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/YzLauncher-windows/releases/download/v0.2.28/YzLauncher-windows.exe",
     "md5": "123213213ffdsadas",
