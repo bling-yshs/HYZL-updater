@@ -38,7 +38,7 @@ async function main() {
   
   // 获取当前秒级时间戳
   let timestamp = Math.floor(new Date().getTime() / 1000);
-  let url = 'https://example.com/path/to/file'; // 替换为实际的下载链接
+  let url = `https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/${version}/HYZL.exe`
   
   // 下载上面链接的文件，并计算它的md5
   const dest = 'HYZL.exe'; // 文件下载到的路径
