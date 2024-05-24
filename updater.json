@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.32",
+    "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.32/HYZL.exe",
+    "md5": "cbf39a8f0f3fdbd3f3598f95cc2f7d6a",
+    "timestamp": 1716532183,
+    "changelog": "无",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.31",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.31/HYZL.exe",
     "md5": "2c4d1fa99bcb0b1faa43fef2f2293c55",
