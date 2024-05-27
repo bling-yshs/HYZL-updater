@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.36",
+    "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.36/HYZL.exe",
+    "md5": "1335c076537d96642815dcdca055ce90",
+    "timestamp": 1716819043,
+    "changelog": "- 🐞 fix: 修复未能正确显示更新日志 d8fd3c5 @bling-yshs\n- 🐞 fix: 修复立刻更新启动器选项没有尝试获取最新的更新 aa58ff5 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.35",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.35/HYZL.exe",
     "md5": "414414d63721237656792cc816a6313d",
