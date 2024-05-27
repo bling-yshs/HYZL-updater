@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.33",
+    "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.33/HYZL.exe",
+    "md5": "55a93d2c41f7adc18df6fcb9c932071d",
+    "timestamp": 1716777741,
+    "changelog": "- 🌟 feat: 更新 签名API 地址为 qsign.icu 内最新的版本(旧版能用的可以不用换) 4c3f631 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.32",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.32/HYZL.exe",
     "md5": "cbf39a8f0f3fdbd3f3598f95cc2f7d6a",
