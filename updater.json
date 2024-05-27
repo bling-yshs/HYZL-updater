@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.35",
+    "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.35/HYZL.exe",
+    "md5": "414414d63721237656792cc816a6313d",
+    "timestamp": 1716818427,
+    "changelog": "- 🐞 fix: 修复安装云崽时错误地提示没有正常安装 d236a7b @bling-yshs\n- 🌟 feat: 加入优化后的BUG修复选项(删了一些没用的选项) 0d849fe @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.33",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.33/HYZL.exe",
     "md5": "55a93d2c41f7adc18df6fcb9c932071d",
