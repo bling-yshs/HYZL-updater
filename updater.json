@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.38",
+    "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.38/HYZL.exe",
+    "md5": "38c9dec588d78526ccc44b11a01a8c3e",
+    "timestamp": 1716820666,
+    "changelog": "- 🌟 feat: 下载新版本时显示进度条 3df3762 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.37",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.37/HYZL.exe",
     "md5": "927d6975f90360c5ea194f8447e363a6",
