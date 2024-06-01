@@ -6,10 +6,9 @@ const path = require("node:path");
 
 async function downloadFile(url, dest) {
   const dirname = path.dirname(dest);
-  if (fs.existsSync(dirname)) {
-    return true;
+  if (!fs.existsSync(dirname)) {
+    await fsp.mkdir(dirname, {recursive: true});
   }
-  await fsp.mkdir(dirname, {recursive: true});
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
     https.get(url, response => {
@@ -59,7 +58,6 @@ async function main() {
   const dest = `${version}/HYZL.exe`; // 文件下载到的路径
   await downloadFile(fileUrl, dest);
   let md5 = await calculateMD5(dest);
-  // let url = 'https://cdn.jsdelivr.net/gh/bling-yshs/ys-image-host@main/img/202404242234348.png'
   let url = `https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/${dest}`;
   obj.unshift({
     version,
