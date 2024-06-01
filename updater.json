@@ -1,45 +1,5 @@
 [
   {
-    "version": "v0.2.46",
-    "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.46/HYZL.exe",
-    "md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "timestamp": 1717213615,
-    "changelog": "无",
-    "deprecated": false
-  },
-  {
-    "version": "v0.2.45",
-    "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.45/HYZL.exe",
-    "md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "timestamp": 1717213260,
-    "changelog": "无",
-    "deprecated": false
-  },
-  {
-    "version": "v0.2.44",
-    "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.44/HYZL.exe",
-    "md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "timestamp": 1717212116,
-    "changelog": "无",
-    "deprecated": false
-  },
-  {
-    "version": "v0.2.42",
-    "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.42/HYZL.exe",
-    "md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "timestamp": 1717211580,
-    "changelog": "无",
-    "deprecated": false
-  },
-  {
-    "version": "v0.2.41",
-    "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.41/HYZL.exe",
-    "md5": "d41d8cd98f00b204e9800998ecf8427e",
-    "timestamp": 1717211302,
-    "changelog": "无",
-    "deprecated": true
-  },
-  {
     "version": "v0.2.40",
     "url": "https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/v0.2.40/HYZL.exe",
     "md5": "3179b3ae0452b96631000824625e7720",
