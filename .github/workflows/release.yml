@@ -19,16 +19,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install Dependencies
+        run: pip install requests
+
       - name: 开启 SSH 服务 (Start SSH service)
         uses: lhotari/action-upterm@v1
+      - name: Update updater.json
+        run: python .github/scripts/release.py "${{ github.event.inputs.version }}" "${{ github.event.inputs.changelog }}"
 
-#      - name: Update updater.json
-#        run: node .github/scripts/release.cjs "${{ github.event.inputs.version }}" "${{ github.event.inputs.changelog }}"
-#
-#      - name: Commit changes
-#        run: |
-#          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#          git config --local user.name "github-actions[bot]"
-#          git add .
-#          git commit -m ${{ github.event.inputs.version }}
-#          git push
+      - name: Commit changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m ${{ github.event.inputs.version }}
+          git push
