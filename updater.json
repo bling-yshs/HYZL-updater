@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.48",
+    "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.48/HYZL.exe",
+    "md5": "94c83e3bca8aa80b61fa5a6fd944fcae",
+    "timestamp": 1717218275,
+    "changelog": "无",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.46",
     "url": "https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/v0.2.46/HYZL.exe",
     "md5": "d41d8cd98f00b204e9800998ecf8427e",
