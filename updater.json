@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.51",
+    "url": "https://gh.api.99988866.xyz/https://github.com/bling-yshs/HYZL/releases/download/v0.2.51/HYZL.exe",
+    "md5": "ea8d243198d0900948d865fd74975524",
+    "timestamp": 1717222352,
+    "changelog": "无",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.50",
     "url": "https://gh.api.99988866.xyz/https://github.com/bling-yshs/HYZL/releases/download/v0.2.50/HYZL.exe",
     "md5": "a9aed2d902338583734d78f823637955",
