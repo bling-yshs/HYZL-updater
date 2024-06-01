@@ -1,5 +1,7 @@
 import os
 import hashlib
+import shutil
+
 import requests
 import time
 import json
@@ -56,7 +58,9 @@ def main():
     dest = f"{version}/HYZL.exe"  # 文件下载到的路径
     download_file(file_url, dest)
     md5 = calculate_md5(dest)
-    url = f"https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@raw/main/{dest}"
+    # 删除 version 文件夹
+    shutil.rmtree(version)
+    url = f"https://gh.api.99988866.xyz/{file_url}"
     obj.insert(0, {
         "version": version,
         "url": url,
