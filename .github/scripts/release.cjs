@@ -45,6 +45,7 @@ async function main() {
   // 获取当前秒级时间戳
   let timestamp = Math.floor(new Date().getTime() / 1000);
   let fileUrl = `https://github.com/bling-yshs/HYZL/releases/download/${version}/HYZL.exe`
+  await waitForUrl(fileUrl);
   
   // 下载上面链接的文件，并计算它的md5
   const dest = `${version}/HYZL.exe`; // 文件下载到的路径
@@ -65,3 +66,27 @@ async function main() {
 }
 
 main().catch(console.error);
+
+
+async function checkUrl(url) {
+  try {
+    let response = await fetch(url, { method: 'HEAD' });
+    return response.ok;
+  } catch (error) {
+    console.error('Error checking URL:', error);
+    return false;
+  }
+}
+
+async function waitForUrl(url, interval = 5000) {
+  while (true) {
+    let exists = await checkUrl(url);
+    if (exists) {
+      console.log('URL is valid:', url);
+      break;
+    } else {
+      console.log('URL not found, waiting for', interval / 1000, 'seconds...');
+      await new Promise(resolve => setTimeout(resolve, interval));
+    }
+  }
+}
