@@ -56,7 +56,7 @@ def main():
     dest = f"{version}/HYZL.exe"  # 文件下载到的路径
     download_file(file_url, dest)
     md5 = calculate_md5(dest)
-    url = f"https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/{dest}"
+    url = f"https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@raw/main/{dest}"
     obj.insert(0, {
         "version": version,
         "url": url,
