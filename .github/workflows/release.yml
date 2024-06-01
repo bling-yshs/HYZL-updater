@@ -22,9 +22,6 @@ jobs:
       - name: Update updater.json
         run: node .github/scripts/release.cjs "${{ github.event.inputs.version }}" "${{ github.event.inputs.changelog }}"
 
-      - name: 开启 SSH 服务 (Start SSH service)
-        uses: lhotari/action-upterm@v1
-
       - name: Commit changes
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
