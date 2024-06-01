@@ -75,5 +75,5 @@ async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-main().catch(console.error);
+main()
 
