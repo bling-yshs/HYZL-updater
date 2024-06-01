@@ -9,7 +9,7 @@ async function downloadFile(url, dest) {
   if (fs.existsSync(dirname)) {
     return true;
   }
-  await fsp.mkdir(dirname, { recursive: true });
+  await fsp.mkdir(dirname, {recursive: true});
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
     https.get(url, response => {
@@ -45,7 +45,15 @@ async function main() {
   // 获取当前秒级时间戳
   let timestamp = Math.floor(new Date().getTime() / 1000);
   let fileUrl = `https://github.com/bling-yshs/HYZL/releases/download/${version}/HYZL.exe`
-  await waitForUrl(fileUrl);
+  
+  while (true) {
+    let response = await fetch(fileUrl)
+    if (response.ok) {
+      break
+    } else {
+      await sleep(10000)
+    }
+  }
   
   // 下载上面链接的文件，并计算它的md5
   const dest = `${version}/HYZL.exe`; // 文件下载到的路径
@@ -65,28 +73,9 @@ async function main() {
   await fsp.writeFile('./updater.json', JSON.stringify(obj, null, 2));
 }
 
+async function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 main().catch(console.error);
 
-
-async function checkUrl(url) {
-  try {
-    let response = await fetch(url, { method: 'HEAD' });
-    return response.ok;
-  } catch (error) {
-    console.error('Error checking URL:', error);
-    return false;
-  }
-}
-
-async function waitForUrl(url, interval = 5000) {
-  while (true) {
-    let exists = await checkUrl(url);
-    if (exists) {
-      console.log('URL is valid:', url);
-      break;
-    } else {
-      console.log('URL not found, waiting for', interval / 1000, 'seconds...');
-      await new Promise(resolve => setTimeout(resolve, interval));
-    }
-  }
-}
