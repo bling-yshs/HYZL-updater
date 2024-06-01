@@ -5,7 +5,7 @@
     "md5": "d41d8cd98f00b204e9800998ecf8427e",
     "timestamp": 1717211302,
     "changelog": "无",
-    "deprecated": false
+    "deprecated": true
   },
   {
     "version": "v0.2.40",
