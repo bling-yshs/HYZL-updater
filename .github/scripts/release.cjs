@@ -2,8 +2,14 @@ const fs = require('fs');
 const fsp = require('fs').promises;
 const crypto = require('crypto');
 const https = require('https');
+const path = require("node:path");
 
 async function downloadFile(url, dest) {
+  const dirname = path.dirname(dest);
+  if (fs.existsSync(dirname)) {
+    return true;
+  }
+  await fsp.mkdir(dirname, { recursive: true });
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
     https.get(url, response => {
@@ -38,14 +44,14 @@ async function main() {
   
   // 获取当前秒级时间戳
   let timestamp = Math.floor(new Date().getTime() / 1000);
-  let url = `https://mirror.ghproxy.com/https://github.com/bling-yshs/HYZL/releases/download/${version}/HYZL.exe`
+  let fileUrl = `https://github.com/bling-yshs/HYZL/releases/download/${version}/HYZL.exe`
   
   // 下载上面链接的文件，并计算它的md5
-  const dest = 'HYZL.exe'; // 文件下载到的路径
-  await downloadFile(url, dest);
+  const dest = `${version}/HYZL.exe`; // 文件下载到的路径
+  await downloadFile(fileUrl, dest);
   let md5 = await calculateMD5(dest);
-  // 删除掉刚刚下载的文件
-  await fsp.unlink(dest);
+  // let url = 'https://cdn.jsdelivr.net/gh/bling-yshs/ys-image-host@main/img/202404242234348.png'
+  let url = `https://cdn.jsdelivr.net/gh/bling-yshs/HYZL-updater@main/${dest}`;
   obj.unshift({
     version,
     url,
@@ -54,7 +60,6 @@ async function main() {
     changelog,
     "deprecated": false
   });
-  
   // 写入updater.json文件
   await fsp.writeFile('./updater.json', JSON.stringify(obj, null, 2));
 }
