@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.52",
+    "url": "https://gh.api.99988866.xyz/https://github.com/bling-yshs/HYZL/releases/download/v0.2.52/HYZL.exe",
+    "md5": "fa71257faf7dd32cbd7311c420e254d9",
+    "timestamp": 1717422663,
+    "changelog": "- 🌟 feat: 首次启动时检查 Node 版本是否过低 ed3d695 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.51",
     "url": "https://gh.api.99988866.xyz/https://github.com/bling-yshs/HYZL/releases/download/v0.2.51/HYZL.exe",
     "md5": "ea8d243198d0900948d865fd74975524",
