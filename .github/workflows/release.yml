@@ -32,3 +32,13 @@ jobs:
           git add .
           git commit -m ${{ github.event.inputs.version }}
           git push
+
+      - name: Upload updater.json to R2
+        uses: gemwalletcom/r2-upload@v1.0.0
+        with:
+          endpoint: ${{ secrets.R2_ENDPOINT }}
+          access_key_id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          secret_access_key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          bucket: hyzl
+          file: './updater.json'
+          destination: 'updater/updater.json'
