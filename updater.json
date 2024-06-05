@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.53",
+    "url": "https://gh.api.99988866.xyz/https://github.com/bling-yshs/HYZL/releases/download/v0.2.53/HYZL.exe",
+    "md5": "061a5c94b9d9b02b86bd19dea900dcb2",
+    "timestamp": 1717576628,
+    "changelog": "- 🐞 fix: 修复无法下载js插件 88e4f01 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.52",
     "url": "https://gh.api.99988866.xyz/https://github.com/bling-yshs/HYZL/releases/download/v0.2.52/HYZL.exe",
     "md5": "fa71257faf7dd32cbd7311c420e254d9",
