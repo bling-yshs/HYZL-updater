@@ -25,14 +25,6 @@ jobs:
       - name: Update updater.json
         run: python .github/scripts/release.py "${{ github.event.inputs.version }}" "${{ github.event.inputs.changelog }}"
 
-      - name: Commit changes
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m ${{ github.event.inputs.version }}
-          git push
-
       - name: Upload updater.json to R2
         uses: gemwalletcom/r2-upload@v1.0.0
         with:
@@ -40,5 +32,16 @@ jobs:
           access_key_id: ${{ secrets.R2_ACCESS_KEY_ID }}
           secret_access_key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           bucket: hyzl
-          file: ./HYZL.exe
+          file: ./${{ github.event.inputs.version }}/HYZL.exe
           destination: release/${{ github.event.inputs.version }}/HYZL.exe
+
+      - name: Remove HYZL.exe
+        run: rm -rf ./${{ github.event.inputs.version }}
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m ${{ github.event.inputs.version }}
+          git push
