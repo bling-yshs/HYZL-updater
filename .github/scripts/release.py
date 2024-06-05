@@ -1,6 +1,5 @@
 import os
 import hashlib
-import shutil
 
 import requests
 import time
@@ -55,12 +54,12 @@ def main():
             time.sleep(10)
 
     # 下载上面链接的文件，并计算它的md5
-    dest = f"{version}/HYZL.exe"  # 文件下载到的路径
+    dest = "HYZL.exe"  # 文件下载到的路径
     download_file(file_url, dest)
     md5 = calculate_md5(dest)
-    # 删除 version 文件夹
-    shutil.rmtree(version)
-    url = f"https://gh.api.99988866.xyz/{file_url}"
+    # 删除下载的文件
+    os.remove(dest)
+    url = f"https://hyzl.r2.yshs.fun/release/{version}/HYZL.exe"
     obj.insert(0, {
         "version": version,
         "url": url,
