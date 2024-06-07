@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.59",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.59/HYZL.exe",
+    "md5": "1f00c0a94fae22c71c017c7c780e10ce",
+    "timestamp": 1717747923,
+    "changelog": "- 🐞 fix: 修复设置 签名API 时未检测配置文件是否存在 ce1438e @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.58",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.58/HYZL.exe",
     "md5": "b099c34ed33fc070dec614b2388753b7",
