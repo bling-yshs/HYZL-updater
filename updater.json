@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.63",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.63/HYZL.exe",
+    "md5": "8b321be865923966d0f192e7cc3b4b4e",
+    "timestamp": 1718455920,
+    "changelog": "- 🌟 feat: 删除所有定时更新启动器的代码，坑点太多，无力维护 a8f68bd @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.62",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.62/HYZL.exe",
     "md5": "58c4224b733040b4284cb2cac5f01121",
