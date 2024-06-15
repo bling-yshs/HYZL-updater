@@ -25,7 +25,7 @@ jobs:
       - name: Update updater.json
         run: python .github/scripts/release.py "${{ github.event.inputs.version }}" "${{ github.event.inputs.changelog }}"
 
-      - name: Upload updater.json to R2
+      - name: Upload HYZL to R2
         uses: gemwalletcom/r2-upload@v1.0.0
         with:
           endpoint: ${{ secrets.R2_ENDPOINT }}
@@ -34,6 +34,16 @@ jobs:
           bucket: hyzl
           file: ./${{ github.event.inputs.version }}/HYZL.exe
           destination: release/${{ github.event.inputs.version }}/HYZL.exe
+
+      - name: Upload updater.json to R2
+        uses: gemwalletcom/r2-upload@v1.0.0
+        with:
+          endpoint: ${{ secrets.R2_ENDPOINT }}
+          access_key_id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          secret_access_key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          bucket: hyzl
+          file: updater.json
+          destination: updater/updater.json
 
       - name: Remove HYZL.exe
         run: rm -rf ./${{ github.event.inputs.version }}
