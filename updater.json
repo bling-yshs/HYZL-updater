@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.64",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.64/HYZL.exe",
+    "md5": "37e170c9555e00dcb648dd2266ab44fc",
+    "timestamp": 1718899505,
+    "changelog": "- 🐞 fix: 修复文案错误 (node20->node18) 4295997 @bling-yshs\n- 🌟 feat: 添加 ffmpeg 一键安装的功能 (BUG修复->修复 ffmpeg 未安装) 4905cce @bling-yshs\n- 🐞 fix: 从旧版本升级时意外检测了 node 版本 378294c @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.63",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.63/HYZL.exe",
     "md5": "8b321be865923966d0f192e7cc3b4b4e",
