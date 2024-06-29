@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.65",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.65/HYZL.exe",
+    "md5": "5e2810cff696bf576ad9495ff36f790b",
+    "timestamp": 1719678095,
+    "changelog": "- 🐞 fix: 修复 redis 修复下载失败 2dfe867 @bling-yshs\n- 🌟 feat: 提供一个 node20 的下载地址 f98499f @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.64",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.64/HYZL.exe",
     "md5": "37e170c9555e00dcb648dd2266ab44fc",
