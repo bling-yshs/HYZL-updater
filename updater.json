@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.66",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.66/HYZL.exe",
+    "md5": "a52b3044c067678053e1cacdd9f205ae",
+    "timestamp": 1719752782,
+    "changelog": "- 🌟 feat: 添加 9.0.55 的设备信息，解决版本过低 45 问题 3f120d0 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.65",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.65/HYZL.exe",
     "md5": "5e2810cff696bf576ad9495ff36f790b",
