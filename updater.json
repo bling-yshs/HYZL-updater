@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.67",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.67/HYZL.exe",
+    "md5": "2af1cdb731daf687537e2455e63c9f4c",
+    "timestamp": 1719923528,
+    "changelog": "- 🐞 fix: 修复有概率因为无法获取文件大小导致下载失败 1d4b23b @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.66",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.66/HYZL.exe",
     "md5": "a52b3044c067678053e1cacdd9f205ae",
