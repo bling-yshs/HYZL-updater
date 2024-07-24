@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.68",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.68/HYZL.exe",
+    "md5": "b1684c8fd464b0eb4b965b9aab1d58b5",
+    "timestamp": 1721788586,
+    "changelog": "- 🌟 feat: 启动器后台检查更新，会给出更新提醒，但是不会立即下载 2ca6e72 @bling-yshs\n- 🌟 feat: 添加 「暂时修复逍遥插件 #扫码登录 无法使用」 f43ef88 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.67",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.67/HYZL.exe",
     "md5": "2af1cdb731daf687537e2455e63c9f4c",
