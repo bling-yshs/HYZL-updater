@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.69",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.69/HYZL.exe",
+    "md5": "05a499a2e9666beff1020e12479d4faa",
+    "timestamp": 1722238028,
+    "changelog": "- 🐞 fix: 修复安装 icqq 0.6.10 前未删除，导致可能 node_modules 还是旧版本 b22367c @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.68",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.68/HYZL.exe",
     "md5": "b1684c8fd464b0eb4b965b9aab1d58b5",
