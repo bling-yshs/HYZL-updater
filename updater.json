@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.70",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.70/HYZL.exe",
+    "md5": "044731244934afc47225f9c28c9201b2",
+    "timestamp": 1722585958,
+    "changelog": "- 🌟 feat: 强制关闭云崽同时关闭chrome(puppeteer) 2cafbce @bling-yshs\n- 🐞 fix: 更新检测有时候会错误提示有更新 4ace80a @bling-yshs\n- 🌟 feat: device.js 文件换用 qsign.icu 提供的，战未来 876a5f8 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.69",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.69/HYZL.exe",
     "md5": "05a499a2e9666beff1020e12479d4faa",
