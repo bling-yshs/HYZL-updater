@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.71",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.71/HYZL.exe",
+    "md5": "de8079f2577d299b9ccaf6da0a461194",
+    "timestamp": 1724993931,
+    "changelog": "- 🌟 feat: 使用 gitee 的 device.js 文件，以及更换 签名API 地址 d796b82 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.70",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.70/HYZL.exe",
     "md5": "044731244934afc47225f9c28c9201b2",
