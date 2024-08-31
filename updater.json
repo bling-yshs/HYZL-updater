@@ -5,7 +5,7 @@
     "md5": "7fa2b7967a3c54285d471cf2acadb69c",
     "timestamp": 1725124508,
     "changelog": "- 🌟 feat: 添加了 icqq 无法正确获取图片链接的修复选项，BUG修复->修复 无法正确获取图片链接 8de1363 @bling-yshs",
-    "deprecated": false
+    "deprecated": true
   },
   {
     "version": "v0.2.71",
