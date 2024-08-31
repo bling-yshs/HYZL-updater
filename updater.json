@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.73",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.73/HYZL.exe",
+    "md5": "ee042f3e31a158c13c17d94fa43ea8fa",
+    "timestamp": 1725127261,
+    "changelog": "- 🐞 fix: 修复代码错误 c0a97cd @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.72",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.72/HYZL.exe",
     "md5": "7fa2b7967a3c54285d471cf2acadb69c",
