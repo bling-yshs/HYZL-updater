@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.74",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.74/HYZL.exe",
+    "md5": "1e059049ac1d7c78470d291900fbebd8",
+    "timestamp": 1726401099,
+    "changelog": "- 🌟 feat: 定时任务(自动更新插件) (#14) 058a30a @bling-yshs\n- 🌟 feat: 将签名API修改为chahuyun.cn 90dbed8 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.73",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.73/HYZL.exe",
     "md5": "ee042f3e31a158c13c17d94fa43ea8fa",
