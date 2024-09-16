@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.75",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.75/HYZL.exe",
+    "md5": "e2af11402ac14d0f7c2b1a82de1538a7",
+    "timestamp": 1726496120,
+    "changelog": "- 🐞 fix: 修复定时任务错误 fcdb019 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.74",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.74/HYZL.exe",
     "md5": "1e059049ac1d7c78470d291900fbebd8",
