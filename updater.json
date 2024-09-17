@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.76",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.76/HYZL.exe",
+    "md5": "e76c23e37bdbbd4df1f31960be2751f8",
+    "timestamp": 1726538333,
+    "changelog": "- 🐝 refactor: 支持获取公告的定时任务(就是可以把获取公告给关了) (#16) b787ec6 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.75",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.75/HYZL.exe",
     "md5": "e2af11402ac14d0f7c2b1a82de1538a7",
