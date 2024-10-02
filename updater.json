@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.77",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.77/HYZL.exe",
+    "md5": "7e3b11869d1046c1c99b0a0fda16f70b",
+    "timestamp": 1727875986,
+    "changelog": "- 🌟 feat: 签名API支持自己选择，因为我也不知道哪些能用了 4675f1e @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.76",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.76/HYZL.exe",
     "md5": "e76c23e37bdbbd4df1f31960be2751f8",
