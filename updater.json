@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.79",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.79/HYZL.exe",
+    "md5": "f836fdc0c06d3459489f2b6c93d35dd6",
+    "timestamp": 1729086839,
+    "changelog": "- 🐞 fix: 没有检测到 git 或 node 时，直接闪退了 a149d8b @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.78",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.78/HYZL.exe",
     "md5": "f7c65def973b8fdde5100da143c20de1",
