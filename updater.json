@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.80",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.80/HYZL.exe",
+    "md5": "71093b9b0813631c466525ff72e6f0f6",
+    "timestamp": 1729471227,
+    "changelog": "- 🌟 feat: 添加 BUG修复->修复 桌面出现白色窗口(治标不治本) e3692b2 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.79",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.79/HYZL.exe",
     "md5": "f836fdc0c06d3459489f2b6c93d35dd6",
