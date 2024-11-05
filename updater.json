@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.81",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.81/HYZL.exe",
+    "md5": "3d4e41e490d392de049346244b707e19",
+    "timestamp": 1730793617,
+    "changelog": "- 🐞 fix: 启动器名字为 HYZL-new.exe 时，更新会失败 0a917a5 @bling-yshs\n- 🐞 fix: 签名换地址了 bdaff20 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.80",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.80/HYZL.exe",
     "md5": "71093b9b0813631c466525ff72e6f0f6",
