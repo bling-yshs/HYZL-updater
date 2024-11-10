@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.83",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.83/HYZL.exe",
+    "md5": "1b5e950a2fff41fffdb57b0edde48364",
+    "timestamp": 1731247148,
+    "changelog": "- 🐝 refactor: 使用 git bash 执行 qsign.icu 提供的 bash 脚本来设置 签名API 11984d8 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.82",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.82/HYZL.exe",
     "md5": "3c711cc3d8002a7945ccacb943cff714",
