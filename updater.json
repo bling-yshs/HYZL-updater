@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.82",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.82/HYZL.exe",
+    "md5": "3c711cc3d8002a7945ccacb943cff714",
+    "timestamp": 1731246747,
+    "changelog": "- 🐞 fix: 更新签名API地址 80a53d0 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.81",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.81/HYZL.exe",
     "md5": "3d4e41e490d392de049346244b707e19",
