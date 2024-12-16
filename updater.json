@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.85",
+    "url": "https://hyzl.r2.yshs.fun/release/v0.2.85/HYZL.exe",
+    "md5": "739693853658d074e5ecab6073f84e30",
+    "timestamp": 1734314449,
+    "changelog": "- 🐝 refactor: 切换更新json和公告json到gitee 7f059bf @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.84",
     "url": "https://hyzl.r2.yshs.fun/release/v0.2.84/HYZL.exe",
     "md5": "f1bffcd124736076973e32063339abc7",
